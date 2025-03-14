@@ -17,7 +17,7 @@ pipeline {
                     echo 'Running Tests...'
                     sh 'chmod +x PES2UG22CS488-1.out' 
                     sh './PES2UG22CS488-1.out'  
-                }
+                
             }
         }
 
