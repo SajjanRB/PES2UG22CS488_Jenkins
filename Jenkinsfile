@@ -6,7 +6,7 @@ pipeline {
             steps {
                 script {
                     echo 'Building C++ Project...'
-                    sh 'g++ -o PES2UG22CS488-1.out hello.cpp'  
+                    sh 'g++ -o PES2UG22CS488.out hello.cpp'  
                 }
             }
         }
@@ -15,8 +15,8 @@ pipeline {
             steps {
                 script {
                     echo 'Running Tests...'
-                    sh 'chmod +x PES2UG22CS488-1.out' 
-                    sh './PES2UG22CS488-1.out'  
+                    sh 'chmod +x PES2UG22CS488.out' 
+                    sh './PES2UG22CS488.out'  
                 }
             }
         }
